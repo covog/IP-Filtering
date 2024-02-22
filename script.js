@@ -83,7 +83,7 @@ function resetDefaults() {
 
 function setLang(lang) {
   if (lang == 'fa') {
-    document.getElementById('body').style.direction = 'ltr';
+    document.getElementById('body').style.direction = 'rtl';
   } else {
     document.getElementById('body').style.direction = 'ltr';
   }
