@@ -323,9 +323,9 @@ async function testIPs(ipList) {
 
 function copyToClipboard(ip) {
   window.navigator.clipboard.writeText(ip).then(() => {
-    alert('آی‌پی‌ در کلیپ‌بورد کپی شد.');
+    alert('IP 已复制到剪贴板。');
   }).catch(() => {
-    alert('مشکلی پیش آمده است!');
+    alert('出事了！');
   });
 }
 
